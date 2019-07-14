@@ -37,45 +37,41 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
+                    <!-- Thêm-->
                     <li>
-                        <a href="index.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ SINH VIÊN</a>
+                        <a href="add_loai_detai.php"><i class="fa fa-fw fa-wrench"></i> THÊM LOẠI ĐỀ TÀI</a>
                     </li>
-
-                    <li>
-                        <a href="add_sinhvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM SINH VIÊN</a>
-                    </li>
-
-                    <li>
-                        <a href="detai.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ ĐỀ TÀI</a>
-                    </li>
-
                     <li>
                         <a href="add_detai.php"><i class="fa fa-fw fa-wrench"></i> THÊM ĐỀ TÀI</a>
                     </li>
+                    <li>
+                        <a href="add_sinhvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM SINH VIÊN</a>
+                    </li>
+                    <li>
+                        <a href="add_multi_sinhvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM DANH SÁCH SINH VIÊN</a>
+                    </li>
+                    <li>
+                        <a href="add_giangvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM GIẢNG VIÊN</a>
+                    </li>
+                    
+                    <!-- Quản lý -->
+                    <li>
+                        <a href="loai_detai.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ LOẠI ĐỀ TÀI</a>
+                    </li>
 
+                    <li>
+                        <a href="index.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ DANH SÁCH SINH VIÊN</a>
+                    </li>
+                    <li>
+                        <a href="detai.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ ĐỀ TÀI</a>
+                    </li>
 
                     <li>
                         <a href="giangvien.php"><i class="fa fa-fw fa-table"></i>QUẢN LÝ DANH SÁCH GIẢNG VIÊN</a>
                     </li>
 
                     <li>
-                        <a href="add_giangvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM GIẢNG VIÊN</a>
-                    </li>
-
-                    <li>
-                        <a href="loai_detai.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ LOẠI ĐỀ TÀI</a>
-                    </li>
-
-                    <li>
-                        <a href="add_loai_detai.php"><i class="fa fa-fw fa-wrench"></i> TẠO LOẠI ĐỀ TÀI</a>
-                    </li>
-
-                    <li>
-                        <a href="add_multi_sinhvien.php"><i class="fa fa-fw fa-wrench"></i> THÊM DANH SÁCH SINH VIÊN</a>
-                    </li>
-
-                    <li>
-                        <a href="ketqua_dangky.php"><i class="fa fa-fw fa-wrench"></i> QUẢN LÝ KẾT QUẢ ĐĂNG KÝ</a>
+                        <a href="ketqua_dangky.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ KẾT QUẢ ĐĂNG KÝ</a>
                     </li>
 
                 </ul>

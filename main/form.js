@@ -3,6 +3,12 @@ $('#formAddTopic button').on('click', function() {
     $name_topic= $('#formAddTopic #name_topic').val();
     $desc_topic = $('#formAddTopic #desc_topic').val();
     $cate_topic = $('#formAddTopic #cate_topic').val();
+    if ($name_topic == '' || $desc_topic == '' || $cate_topic == '') 
+    {
+        $('#formAddTopic .alert').removeClass('hidden');
+		$('#formAddTopic  .alert').html('Vui lòng điền đầy đủ thông tin.');
+		$this.html('Tạo mới');
+    } 
     $.ajax({
         type : 'POST',
         url : "add_detaigv.php",
@@ -55,16 +61,16 @@ $('#formEditTopic button').on('click', function() {
         type : 'POST',
         url : "add_detaigv.php",
         data: {
-            name_edit_topic:$name_edit_topic,
+            id_edit_topic : $id_edit_topic,
+            name_edit_topic: $name_edit_topic,
             desc_edit_topic: $desc_edit_topic,
             cate_edit_topic : $cate_edit_topic,
-            id_edit_topic : $id_edit_topic,
             action : 'edit_topic'
         }, success: function(data){
             $('#formEditTopic .alert').removeClass('hidden');
 			$('#formEditTopic .alert').html(data);
 			$this.html('Lưu thay đổi');
-        }, error : function() {
+        }, error : function(data) {
             $('#formEditTopic .alert').removeClass('hidden');
             $('#formEditTopic .alert').html(data);
             $this.html('Lưu thay đổi');
