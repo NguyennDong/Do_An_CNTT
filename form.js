@@ -46,7 +46,7 @@ $('.del-post-list').on('click', function() {
         return false;
     }
 });
-$('#formEditTopic button').on('click', function() {
+/*$('#formEditTopic button').on('click', function() {
     $id_edit_topic = $(this).attr('data-id');
     $name_edit_topic= $('#formEditTopic #name_edit_topic').val();
     $desc_edit_topic = $('#formEditTopic #desc_edit_topic').val();
@@ -70,4 +70,4 @@ $('#formEditTopic button').on('click', function() {
             $this.html('Lưu thay đổi');
         }
     });
-});
+});*/
