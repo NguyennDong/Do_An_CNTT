@@ -73,7 +73,9 @@
                     <li>
                         <a href="ketqua_dangky.php"><i class="fa fa-fw fa-table"></i> QUẢN LÝ KẾT QUẢ ĐĂNG KÝ</a>
                     </li>
-
+                    <li>
+                        <a href="../index.php"><i class="far fa-arrow-alt-circle-left"></i>VỀ TRANG CHỦ</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
